@@ -37,7 +37,7 @@ _start:
 	push ebx
 	push eax
 
-    call main ; Jump main function
+    call main ; Jump main function ; kaller på c funksjonen.
 
 section .bss
 stack_bottom:

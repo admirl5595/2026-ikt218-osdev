@@ -1,0 +1,7 @@
+Hva er en GDT?
+
+GDT'en sier hvilke minneadresser som prosessoren kan redigere. 
+
+Hvert segment i GDT'en forteller om segmentet skal brukes av Ring 0 eller
+av ring 3. Ring 0 er ment for systembruk, mens ring 3 er for applikasjonsbruk.
+
